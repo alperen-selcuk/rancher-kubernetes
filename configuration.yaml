@@ -3,14 +3,17 @@ nodes:
     internal_address: <private ip address>
     user: ubuntu
     role: [controlplane, worker, etcd]
+    ssh_key_path: <path your private key default ~/.ssh/id_rsa>
   - address: <public ip address>
     internal_address: <private ip address>
     user: ubuntu
     role: [controlplane, worker, etcd]
+    ssh_key_path: <path your private key default ~/.ssh/id_rsa>
   - address: <public ip address>
     internal_address: <private ip address>
     user: ubuntu
     role: [controlplane, worker, etcd]
+    ssh_key_path: <path your private key default ~/.ssh/id_rsa>
 
 services:
   etcd:
