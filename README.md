@@ -11,11 +11,11 @@ rke and kubectl need for installation.
 
 rke binary you can install (meanwhile 1.6.2 for this repo)
 
-`https://github.com/rancher/rke/releases/tag/v1.6.2`
+https://github.com/rancher/rke/releases/tag/v1.6.2
 
 for kubectl you can follow documentation
 
-`https://kubernetes.io/docs/tasks/tools/#install-kubectl`
+https://kubernetes.io/docs/tasks/tools/#install-kubectl
 
 ## configuration
 
