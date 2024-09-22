@@ -1,0 +1,27 @@
+nodes:
+  - address: <public ip address>
+    internal_address: <private ip address>
+    user: ubuntu
+    role: [controlplane, worker, etcd]
+  - address: <public ip address>
+    internal_address: <private ip address>
+    user: ubuntu
+    role: [controlplane, worker, etcd]
+  - address: <public ip address>
+    internal_address: <private ip address>
+    user: ubuntu
+    role: [controlplane, worker, etcd]
+
+services:
+  etcd:
+    snapshot: true
+    creation: 6h
+    retention: 24h
+
+
+ingress:
+  provider: nginx
+  options:
+    use-forwarded-headers: "true"
+
+kubernetes_version: <latest version>
