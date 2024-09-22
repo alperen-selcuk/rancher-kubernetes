@@ -5,7 +5,7 @@ Rancher Kubernetes Engine (RKE) is a user-friendly, CNCF-certified Kubernetes se
 ![image](https://github.com/user-attachments/assets/c30f6366-6655-4563-9a1b-16c48622caac)
 
 
-## pre-req
+## pre-req
 
 rke and kubectl need for installation.
 
@@ -17,7 +17,20 @@ for kubectl you can follow documentation
 
 https://kubernetes.io/docs/tasks/tools/#install-kubectl
 
-## configuration
+your server need access via 22 port with private key
+
+## configuration and install
 
 rke use configuration yaml file you can find inside repo as configuration.yaml
 
+then simple run below command.
+
+```rke up --config ./rancher-cluster.yml```
+
+## test
+
+rancher put config file as kube_config_cluster.yml 
+
+you can copy on .kube/config and 
+
+```kubectl get nodes``` 
