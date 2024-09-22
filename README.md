@@ -19,6 +19,9 @@ https://kubernetes.io/docs/tasks/tools/#install-kubectl
 
 your server need access via 22 port with private key
 
+![image](https://github.com/user-attachments/assets/16eb7d5c-d031-4920-838a-c40d116810f3)
+
+
 ## configuration and install
 
 rke use configuration yaml file you can find inside repo as configuration.yaml
